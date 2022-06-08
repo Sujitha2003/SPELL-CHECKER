@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+
+    <head>
+        <title>Spell Checker</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+
+    <body class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Spell Checker</a>
+        </nav>
+
+        <div class="row justify-content-center">
+            <div class="col-11">
+                <form action="/correct" method="post"> 
+                    <div class="form-group">
+                        <label for="input">Input</label>
+                        <textarea class="form-control" id="input" name="input" rows="5">{{ input }}</textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Correct</button>
+                        <button type="reset" class="btn btn-danger">Clear</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="output">Output</label>
+                        <textarea class="form-control" id="output" name="output" rows="5">{{ output }}</textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</form>
+</html>
