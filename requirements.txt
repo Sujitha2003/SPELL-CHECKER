@@ -6,4 +6,4 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.5
 textblob>=0.17.1
 nltk==3.7
-python-3.10.5
+
