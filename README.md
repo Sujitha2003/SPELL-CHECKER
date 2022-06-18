@@ -1,2 +1,6 @@
 # SPELL-CHECKER
 DESIGNED A WEBPAGE TO CHECK SPELLING USING FLASK
+
+OUTPUT:
+
+![spl](https://user-images.githubusercontent.com/98878126/174424668-9134e73c-676b-4c8d-83be-557fbc3f1da5.JPG)
